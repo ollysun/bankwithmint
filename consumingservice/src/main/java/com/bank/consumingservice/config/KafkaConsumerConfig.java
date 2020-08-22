@@ -54,14 +54,6 @@ public class KafkaConsumerConfig {
         return factory;
     }
 
-    /**
-     * Boot will autowire this into the container factory.
-     */
-    @Bean
-    public LoggingErrorHandler errorHandler() {
-        return new LoggingErrorHandler();
-    }
-
 
     @Bean(name = "CardConsumer")
     public ConsumerService consumerService() {
