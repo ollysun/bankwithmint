@@ -38,7 +38,7 @@ public class CardControllerTests {
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
 
         ResponseEntity<String> response = restTemplate
-                .exchange(getRootUrl() + "/card-scheme/verify/53998345",
+                .exchange(getRootUrl() + "/card-scheme/verify/45717360",
                         HttpMethod.GET, entity, String.class);
         assertNotNull(response.getBody());
         Assert.assertEquals(200, response.getStatusCodeValue());
