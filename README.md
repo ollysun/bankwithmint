@@ -10,4 +10,4 @@ To run this application. Please follow the instruction
 Then call the endpoint  
 http://localhost:8091/card-scheme/verify/45717360 this will verify and publish the scheme card to queue.
 
-4, For the consuming service, cd consumingservice folder, mvn spring-boot:run. This is to listener to receive the scheme card from queue
+4, For the consuming service, cd consumingservice folder, mvn spring-boot:run. This is for the listener to receive the scheme card message from queue
